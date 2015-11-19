@@ -1,0 +1,101 @@
+header {
+    background-color:lightseagreen;
+    color:white;
+    text-align:center;
+    padding:5px;     
+}
+nav {
+    line-height:30px;
+    background-color: lightgray;
+    color: white;
+    height:100%;
+    width:200px;
+    float:left;
+    padding:5px; 
+}
+nav.filtros {
+    line-height:30px;
+    background-color: lightgray;
+    color: black;
+    height:100%;
+    width:15%;
+    float:right;
+    padding:5px;          
+}
+input{
+    width: 90%;
+ /*   padding:5px;*/          
+}
+.btn{
+    color:black;
+    background-color: lightgray; 
+    height:150px;
+    width:100%;
+    margin-top: 5px;
+    font: 100% Arial,Bold; 
+}
+
+section {
+    position:absolute;
+    left:19%;
+    color: black;
+    float:left;
+    margin: 2%;
+    height: 100%;
+    width: 62%
+}
+
+section.infovis {
+    position:absolute;
+    left:19%;
+    background-color:darkgray;
+    float:left;
+    margin: 4px;
+    height: 100%;
+    width: 62%
+}
+footer {
+    background-color:lightseagreen;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+#infovis {
+    position:relative;
+    width:100%;
+    height:100%;
+    margin:auto;
+    overflow:hidden;
+}
+#id-list {
+	border:1px solid darkgray;
+	margin: 5% 15% 0 15%;
+	padding:4%;
+	text-align:left;
+	text-indent:4%;
+ 
+  background-color: darkgrey;   
+}
+#id-list li {
+  list-style: none;  
+}
+.query-color {
+  border:1px solid #999999;
+  float:left;
+  height:10px;
+  margin:3% 3% 0 0;
+  width:10%;
+}
+#container {
+    width: 85%;
+    height: 600px;
+    margin:0 auto;
+    position:relative;
+    position: absolute;
+    left: 7.5%
+}
+#filtrar{
+   height: 30px; 
+   margin-top: 70% ;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transparencia InfoVis - DespesasDiarias</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/estilo.css">
+	<!-- JIT Library-->
+	<script language="javascript" type="text/javascript" src="js/jit.js"></script>
+        <!-- Script Teste -->
+	<script language="javascript" type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body onload="init();">
+	<div id="container">
+        <header>
+          <h1>Transparencia InfoVis</h1>
+        </header>
+
+        <nav>
+          <a href="index.html"><button class="btn">Home</button></a>
+          <a href="despesas.html"><button class="btn">Despesas Diárias</button></a>
+          <a href="#"><button class="btn"><del>Servidores do IFSP</del></button></a>
+        </nav>
+
+        <nav class="filtros">
+            <form action="persistencia/filtrar.php">
+                <h2>FILTROS</h2>
+                <label>Data Inicial: </label>
+                <br>
+                <input type="date" name="inicio" id = "inicio">
+                <br>
+                <label>Data Final: </label>
+                <br>
+                <input type="date" name="final" id="final">
+                <br>
+                <label>Favorecido: </label>
+                <br>
+                <input type="text" name="favorecido" id="favorecido">
+                <br>
+                <input type="submit" id="filtrar" class="btn" value="FILTRAR">
+            </form>
+        <ul id="id-list"></ul>  
+        </nav>
+        <section class="infovis">
+          <div id="infovis"></div>
+        </section>
+        <footer>
+            <pre>
+            Projeto Integrado
+            Fabio Santos 
+            IFSP - campus Hortolândia
+            </pre>
+            <a href="admin.html">Adiministrador</a>
+        </footer>
+	</div>
+    </body>
+</html>

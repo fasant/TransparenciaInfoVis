@@ -1,0 +1,17 @@
+label{
+  width: 150px; 
+  display: inline-block;
+  color: black;
+}
+table{
+  border-collapse: collapse;
+}
+td, th{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+th{
+	width: 130px;  
+}
