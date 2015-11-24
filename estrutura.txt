@@ -1,0 +1,6 @@
+->TransparenciaInfoVis: Raiz
+-> css/ : Possui as folhas de estilo
+-> doc/ : Documentação do projeto (Termo de abertura, Wireframe, etc)
+-> js/  : Scripts js e Biblioteca de InfoVis
+-> persistencia/ : Arquivos .php relacionados ao banco de dados  
+
